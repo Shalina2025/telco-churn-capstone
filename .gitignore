@@ -1,0 +1,23 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+
+# Virtual Environments (Local python environments)
+venv/
+.venv/
+env/
+
+# Data and Outputs (Ignore heavy CSVs, datasets, and saved model binaries)
+data/raw/*.csv
+data/processed/*.csv
+output/*.pkl
+output/*.joblib
+
+# IDE Settings
+.vscode/
+.idea/
